@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@ngdaydemo/mylib-1": ["libs/mylib-1/src/index.ts"],
+      "@ngdaydemo/mylib-2": ["libs/mylib-2/src/index.ts"],
+      "@ngdaydemo/mylib-3": ["libs/mylib-3/src/index.ts"],
+      "@ngdaydemo/mylib-4": ["libs/mylib-4/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
