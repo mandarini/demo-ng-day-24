@@ -8,4 +8,6 @@ import { CommonModule } from '@angular/common';
   templateUrl: './mylib-3.component.html',
   styleUrl: './mylib-3.component.css',
 })
-export class Mylib3Component {}
+export class Mylib3Component {
+  title = 'Mylib3';
+}
