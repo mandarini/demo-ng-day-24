@@ -17,7 +17,6 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
-  "nxCloudId": "672dd66ff66c74057ceb375e",
   "targetDefaults": {
     "@angular-devkit/build-angular:application": {
       "cache": true,
@@ -67,6 +66,7 @@
       }
     }
   ],
+  "nxCloudUrl": "https://staging.nx.app",
   "generators": {
     "@nx/angular:application": {
       "e2eTestRunner": "cypress",

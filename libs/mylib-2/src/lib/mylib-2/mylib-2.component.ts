@@ -9,4 +9,6 @@ import { Mylib3Component } from '@ngdaydemo/mylib-3';
   templateUrl: './mylib-2.component.html',
   styleUrl: './mylib-2.component.css',
 })
-export class Mylib2Component {}
+export class Mylib2Component {
+  title = 'mylib2';
+}
